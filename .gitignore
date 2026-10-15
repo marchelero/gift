@@ -1,0 +1,24 @@
+# Paquete opencode (tooling, no es el producto)
+.opencode/
+.agents/
+opencode.json
+skills-lock.json
+
+# Machine-local dentro de docs/
+docs/state/*.json
+docs/state/_archive/
+docs/instincts/*.json
+
+# Dependencies (cuando empiece el código)
+node_modules/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Backups
+*.bak.*
